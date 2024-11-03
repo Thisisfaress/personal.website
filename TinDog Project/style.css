@@ -1,0 +1,85 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+.btn-primary-header {
+  background-color: white;
+  color: black;
+  border: white;
+}
+.btn-primary-header:hover {
+  background-color: lightgray;
+}
+.btn-outline-secondary {
+  background-color: none;
+  color: white;
+  border-color: white;
+}
+.btn-outline-secondary:hover {
+  background-color: white;
+  color: black;
+  border-color: white;
+}
+.text-body-emphasis {
+  font-size: xx-large;
+}
+#footer {
+  margin-bottom: none;
+}
+.btn-outline-primary {
+  border-color: #212529;
+  background-color: none;
+  color: #212529;
+}
+.btn-primary {
+  border-color: #212529;
+  background-color: #212529;
+}
+.border-primary {
+  border-color: #212529 !important;
+}
+.text-bg-primary {
+  background-color: #212529 !important;
+}
+.btn-primary:hover {
+  background-color: #6b6c6e;
+}
+.btn-outline-primary:hover {
+  background-color: #212529;
+}
+.display-4 {
+  font-size: 55px;
+}
+
+.lead {
+  margin-bottom: 60px;
+}
+.py-5 {
+  padding-top: 50px !important;
+  padding-bottom: 0 !important;
+}
